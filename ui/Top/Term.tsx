@@ -1,10 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {fas} from '@fortawesome/free-solid-svg-icons'
 import {library } from "@fortawesome/fontawesome-svg-core";
-import { Term } from '@/lib/interface';
 library.add(fas)
 
-const terms: Array<Term> = [
+const terms: Array<any> = [
     {
         title:'Vận Chuyển Nhanh',
         desc:'Miễn phí vận chuyển trên 1,000,000 VNĐ',
